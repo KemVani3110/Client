@@ -14,11 +14,11 @@
 
 <div class="chatbox">
   <div class="message-container">
-      <div *ngFor="let message of messages" [class]="message.from == userName ? 'bubble-chat: me' : 'bubble-chat'">
-        <p class="name"> {{message.from}}: </p>
-        <div class="bubble">
+      <div *ngFor="let message of messages" [ngClass]="message.from == userName ? 'from_me' : 'from_other'">
+          <p >{{message.from}}:</p>
+
           <p class="message"> {{message.msg}}</p>
-        </div>
+
       </div>
   </div>
 </div>

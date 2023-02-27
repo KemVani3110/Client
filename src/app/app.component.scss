@@ -3,18 +3,19 @@
   justify-content: center;
   align-items: center;
   margin: 15px auto;
-  border: 5px solid rgb(233, 230, 225);
-  width: 50%;
+  width: 100%;
   border-width: thin;
 }
 
 #input-container{
   display: flex;
   margin-top: 10px;
-  width: 100%;
+  width: 50%;
   margin: 40px 0px 20px 0px ;
   flex-direction: column;
-
+  border: 2px solid rgb(233, 230, 225);
+  justify-content: center;
+  background-color: black;
 }
 
 .head{
@@ -54,8 +55,8 @@
 
 .chatbox{
   display: flex;
-  width: 50%;
-  justify-self: center;
+  width: 100%;
+  justify-content: center;
 }
 
 .message-container{
@@ -63,10 +64,16 @@
   margin: 10px 0 0 20px ;
   flex-direction: column;
   width: 40%;
+  align-self: center;
+  background-color: cornsilk;
 }
 
-.name{
-  margin-top: 10px;
+.from_me{
+  margin-left: 400px;
+}
+
+.from_other{
+  margin-right: 50px;
 }
 
 .message{
@@ -76,4 +83,5 @@
   padding: 6px 40px;
   border-radius: 50px;
   margin: 10px 10px 0 10px;
+  width: 40%;
 }
