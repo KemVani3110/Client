@@ -1,0 +1,70 @@
+#peace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid rgb(233, 230, 225);
+}
+
+#input-container{
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  margin: 40px 0px 20px 0px ;
+  flex-direction: column;
+
+}
+
+.head{
+  border: 2px solid rgba(65, 145, 174, 0.674);
+  padding: 6px 40px;
+  border-radius: 50px;
+  margin: 0 10px 0 10px;
+  margin-top: 10px;
+}
+
+.btn{
+  border: 2px solid rgb(107, 175, 214);
+  padding: 6px 40px;
+  border-radius: 50px;
+  margin: 20px 10px 0 10px;
+  cursor: pointer;
+}
+
+#box{
+  padding: 6px 40px;
+  border-radius: 50px;
+  margin: 0 10px 0 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#sen{
+  padding: 6px 40px;
+  border-radius: 50px;
+  margin: 0 10px 0 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.message-container{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.name{
+  margin-top: 10px;
+}
+
+.message{
+  display: flex;
+  margin-bottom: 10px;
+  border: 2px solid rgb(107, 175, 214);
+  padding: 6px 40px;
+  border-radius: 50px;
+  margin: 10px 10px 0 10px;
+}
