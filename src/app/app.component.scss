@@ -2,8 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  border: 2px solid rgb(233, 230, 225);
+  margin: 15px auto;
+  border: 5px solid rgb(233, 230, 225);
+  width: 50%;
+  border-width: thin;
 }
 
 #input-container{
@@ -21,6 +23,7 @@
   border-radius: 50px;
   margin: 0 10px 0 10px;
   margin-top: 10px;
+  height: 30px;
 }
 
 .btn{
@@ -49,11 +52,17 @@
   justify-content: center;
 }
 
+.chatbox{
+  display: flex;
+  width: 50%;
+  justify-self: center;
+}
+
 .message-container{
   display: flex;
-  margin-left: 20px;
-  margin-top: 10px;
+  margin: 10px 0 0 20px ;
   flex-direction: column;
+  width: 40%;
 }
 
 .name{
